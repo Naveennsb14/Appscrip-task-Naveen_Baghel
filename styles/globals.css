@@ -382,6 +382,10 @@ hr {
   padding: 20px 8px;
 }
 
+.filter_text{
+  display: flex;
+  gap: 4px;
+}
 .popup_heading{
   font-weight: bold;
   padding: 8px 0px;
