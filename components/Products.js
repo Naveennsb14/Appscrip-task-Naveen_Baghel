@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import Checkbox from "../public/checkbox.png";
+// import Checkbox from "../public/checkbox.png";
 import Arrow from "../public/arrow-left.png";
 import heart from '../public/heart.png'
 
@@ -31,7 +31,7 @@ export const Products = ({show, setShow}) => {
       <div className="product_Container">
         {show && <div className="product_SideBar">
           <div className="product_customize">
-            <Image src={Checkbox} alt="checkbox" />
+            {/* <Image src={Checkbox} alt="checkbox" /> */}
             <span className="product_text">CUSTOMIZABLE</span>
           </div>
           <hr />

@@ -5,7 +5,7 @@ import Search from '../public/search-normal.png'
 import Heart from '../public/heart.png'
 import Shopping from '../public/shopping-bag.png'
 import Profile from '../public/profile.png'
-import Language from '../public/language.png'
+// import Language from '../public/language.png'
 import upper from '../public/element-4.png'
 
 
@@ -40,7 +40,7 @@ const Headmain = () => {
             <Image className='heart' src={Heart} alt='favourites'/>
             <Image className='shopping' src={Shopping} alt='cart'/>
             <Image className='profile' src={Profile} alt='profile'/>
-            <Image className='language' src={Language} alt='language'/>
+            {/* <Image className='language' src={Language} alt='language'/> */}
 
           </div>
         </div>
