@@ -16,7 +16,7 @@ const Filter = ({ show, setShow }) => {
             <span className="filter_items">3425 ITEMS</span>
             <div className="filter_text" onClick={() => setShow(!show)}>
               <Image src={Arrow} />
-              <span>{show?"Hide Filter":"show Filter"}</span>
+              <span>{show?<Image src={HideFilter}/>:<Image src={Showfilter}/>}</span>
             </div>
           </div>
           <div className="recommend_section" onClick={() => setModal(!modal)}>
