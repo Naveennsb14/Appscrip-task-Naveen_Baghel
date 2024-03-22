@@ -14,11 +14,11 @@ const Filter = ({ show, setShow }) => {
         <div className="Filter_container">
           <div className="filter_section">
             <span className="filter_items">3425 ITEMS</span>
-            <div className="filter_text">
+            <div className="filter_text" onClick={() => setShow(!show)}>
               <Image src={Arrow} />
               <Image
                 src={show ? HideFilter : Showfilter}
-                onClick={() => setShow(!show)}
+                
               />
             </div>
           </div>
