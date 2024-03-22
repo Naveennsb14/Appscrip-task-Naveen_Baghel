@@ -104,7 +104,7 @@ export const Products = ({show, setShow}) => {
           {list.map((movies, index)=>(
             <div className="product_card" key={index}>
             <div className="productImage">
-              <Image src={movies.image} width={168} height={224}/>
+              <img src={movies.image} width={168} height={224}/>
             </div>
             <div className="product_description">
               <span className="product_Name">{movies.category}</span>

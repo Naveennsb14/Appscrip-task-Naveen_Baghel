@@ -65,16 +65,16 @@ export const Footer = () => {
           <div className="footer_third">
             <span className="footer_thirdfollowText">FOLLOW US</span>
             <div className="footer_publicProfile">
-              <Image src={social} />
+              <Image src={social} alt="social"/>
             </div>
             <div className="footer__cardAccepts">
               <span>meta muse ACCEPTS</span>
-              <Image src={cards} />
+              <Image src={cards} alt="image"/>
             </div>
           </div>
         </div>
         <footer className="footer__copyrightText">
-          Copyright © 2023 mettamuse. All rights reserved.
+          Copyright 2023 mettamuse. All rights reserved.
         </footer>
       </div>
     </>
