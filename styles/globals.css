@@ -151,8 +151,8 @@
 .product_ProductItems {
   display: flex;
   flex-wrap: wrap;
-  gap: 74px;
-  flex: 2;
+  gap: 46px;
+  flex: 3;
   border: 1px solid #e5e5e5;
 }
 
@@ -489,4 +489,8 @@ hr {
 }
 
 
+}
+
+@media only screen and (max-width: 600px) {
+  
 }
